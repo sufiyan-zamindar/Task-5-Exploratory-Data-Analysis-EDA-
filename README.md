@@ -1,76 +1,91 @@
-Titanic Dataset - Exploratory Data Analysis (EDA)
+# Titanic Dataset - Exploratory Data Analysis (EDA)
 This project performs a full Exploratory Data Analysis (EDA) on the famous Titanic dataset using Python libraries like Pandas, NumPy, Seaborn, and Matplotlib.
 
-📚 Libraries Used
-Pandas: Data handling and manipulation
+---
 
-NumPy: Numerical operations
+# 📚 Libraries Used
 
-Seaborn: Data visualization
+-Pandas: Data handling and manipulation
 
-Matplotlib: Plotting graphs
+-NumPy: Numerical operations
 
-Warnings: Suppressing unnecessary warnings
+-Seaborn: Data visualization
 
-📂 Dataset
-Source: Titanic dataset loaded via seaborn.load_dataset('titanic')
+-Matplotlib: Plotting graphs
 
-Contains passenger information like age, gender, fare, class, and survival status.
+-Warnings: Suppressing unnecessary warnings
 
-🚀 Workflow
-Data Loading and Inspection
+---
 
-Load the Titanic dataset
+# 📂 Dataset
+-Source: Titanic dataset loaded via seaborn.load_dataset('titanic')
 
-Display basic info and summary statistics
+-Contains passenger information like age, gender, fare, class, and survival status.
 
-Check missing values
+---
 
-Display value counts for categorical columns
+# 🚀 Workflow
+-Data Loading and Inspection
 
-Visual Explorations
+-Load the Titanic dataset
 
-Heatmap of missing values
+-Display basic info and summary statistics
 
-Pairplot of selected features
+-Check missing values
 
-Correlation heatmap
+-Display value counts for categorical columns 
 
-Histograms and boxplots for Age, Fare, Class, and Survival
+---
 
-Countplots and barplots to explore categorical trends
+# Visual Explorations
 
-Observations
+-Heatmap of missing values
 
-Identify missing data patterns
+-Pairplot of selected features
 
-Explore relationships between survival and features like gender, age, fare, and class
+-Correlation heatmap
 
-Summary of Findings
+-Histograms and boxplots for Age, Fare, Class, and Survival
 
-Younger, first-class, and higher-fare passengers had better survival chances
+-Countplots and barplots to explore categorical trends
 
-Females had a higher survival rate than males
+-Observations
 
-Missing values, especially in 'Age' and 'Cabin', require careful treatment before modeling
+-Identify missing data patterns
 
-📈 Key Visuals
-Heatmaps: Missing values, correlations
+-Explore relationships between survival and features like gender, age, fare, and class
 
-Histograms: Age distribution
+# Summary of Findings
 
-Boxplots: Fare comparison by survival
+-Younger, first-class, and higher-fare passengers had better survival chances
 
-Countplots: Class distribution
+-Females had a higher survival rate than males
 
-Barplots: Gender vs survival rate
+-Missing values, especially in 'Age' and 'Cabin', require careful treatment before modeling
 
-Pairplots: Visualizing feature relationships
+---
 
-💡 Summary
+# 📈 Key Visuals
+-Heatmaps: Missing values, correlations
+
+-Histograms: Age distribution
+
+-Boxplots: Fare comparison by survival
+
+-Countplots: Class distribution
+
+-Barplots: Gender vs survival rate
+
+-Pairplots: Visualizing feature relationships
+
+---
+
+# 💡Project Summary
 This EDA provides crucial insights into the Titanic dataset, uncovering patterns that can inform predictive modeling efforts. Special focus is needed for missing data, and demographic factors like age, gender, fare, and passenger class strongly influenced survival outcomes.
 
-🛠️ Future Steps
+---
+
+# 🛠️ Future Steps
 Handle missing data more rigorously (imputation or removal)
 
 Feature engineering (e.g., family size, title extraction from names)
